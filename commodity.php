@@ -5,7 +5,7 @@ $filterContent=(@$_GET['type']) ?:"State";
 $filterValue = (@$_GET['val']) ?:"Rajasthan";
 
 
-$data_url = "http://data.gov.in/api/datastore/resource.json?resource_id=9ef84268-d588-465a-a308-a864a43d0070&api-key=a28a014aed0eb65fe167f0727cc37937&filters[$filterContent]=$filterValue";
+$data_url = "http://data.gov.in/api/datastore/resource.json?resource_id=9ef84268-d588-465a-a308-a864a43d0070&api-key=xxxxxxxxxxxxxxxxxxxxxxxxxxx&filters[$filterContent]=$filterValue";
 
 # Get The date by cUrl
 $ch = curl_init ($data_url);
